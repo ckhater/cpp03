@@ -1,5 +1,9 @@
 #include"ScavTrap.hpp"
 
+ScavTrap::ScavTrap(void){
+    std::cout<< "ScavTrap constructor called"<< std::endl;
+}
+
 ScavTrap::ScavTrap(std::string n){
     std::cout<< "ScavTrap parametrized contructor called"<< std::endl;
     this->name = n;

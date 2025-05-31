@@ -1,11 +1,5 @@
 #include"ClapTrap.hpp"
 
-ClapTrap::ClapTrap(void){
-   std::cout<< "ClapTrap contructor called"<< std::endl;
-   //  this->hit_points = 100;
-   //  this->energy_points = 50;
-   //  this->attack_damage = 20;
-}
 
 ClapTrap & ClapTrap::operator=(ClapTrap const &clp){
    std::cout<< "copy assignement called"<< std::endl;

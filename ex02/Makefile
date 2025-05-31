@@ -1,6 +1,6 @@
-Name=scavtrap
+Name=fragtrap
 FLAG=-std=c++98 -Wall -Wextra -Werror
-SRC=main.cpp ClapTrap.cpp ScavTrap.cpp
+SRC=main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
 OBJ=$(SRC:.cpp=.o)
 
 all:$(Name)
