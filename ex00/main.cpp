@@ -2,9 +2,7 @@
 
 int main(){
     ClapTrap clp("tom");
-    ClapTrap cp;
 
-    cp.attack("we");
     clp.attack("jerry");
     clp.beRepaired(5);
     clp.takeDamage(30);

@@ -2,10 +2,12 @@
 
 int main()
 {
-    ScavTrap p("riri");
-
-    p.attack("weii");
-    p.takeDamage(300);
-    p.beRepaired(500);
+    ScavTrap p("mimi");
+ 
+    p.attack("riri");
+    p.beRepaired(41);
+    p.attack("riri");
+    p.takeDamage(51);
+    p.beRepaired(0);
     p.guardGate();
 }

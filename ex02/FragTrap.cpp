@@ -1,5 +1,9 @@
 #include"FragTrap.hpp"
 
+FragTrap::FragTrap(void){
+    std::cout<< "FragTrap constructor called"<< std::endl;
+}
+
 FragTrap::FragTrap(std::string n){
     std::cout<< "FragTrap parametrized constructor called"<< std::endl;
     this->name = n;

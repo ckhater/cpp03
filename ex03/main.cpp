@@ -5,7 +5,8 @@ int main()
     DiamondTrap p("riri");
 
     p.attack("weii");
-    p.takeDamage(300);
+    p.beRepaired(0);
+    p.takeDamage(30);
     p.beRepaired(500);
     p.highFivesGuys();
     p.whoAmI();

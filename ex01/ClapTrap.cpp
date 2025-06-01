@@ -2,13 +2,10 @@
 
 ClapTrap::ClapTrap(void){
    std::cout<< "ClapTrap contructor called"<< std::endl;
-   //  this->hit_points = 100;
-   //  this->energy_points = 50;
-   //  this->attack_damage = 20;
 }
 
 ClapTrap & ClapTrap::operator=(ClapTrap const &clp){
-   std::cout<< "copy assignement called"<< std::endl;
+   std::cout<< "ClapTrap copy assignement called"<< std::endl;
    this->name = clp.name;
    this->hit_points = clp.hit_points;
    this->attack_damage = clp.attack_damage;
@@ -18,7 +15,7 @@ ClapTrap & ClapTrap::operator=(ClapTrap const &clp){
 
 ClapTrap::ClapTrap(std::string n)
 {
-   std::cout<< "parametrized Contructor called"<< std::endl;
+   std::cout<< "ClapTrap parametrized Contructor called"<< std::endl;
    this->name = n;
    this->attack_damage = 0;
    this->energy_points = 10;
@@ -26,12 +23,12 @@ ClapTrap::ClapTrap(std::string n)
 }
 
 ClapTrap::ClapTrap(ClapTrap const &clp){
-   std::cout<< "Copy contructor called"<<std::endl;
+   std::cout<< "ClapTrap Copy contructor called"<<std::endl;
    *this = clp;
 }
 
 ClapTrap::~ClapTrap(void){
-   std::cout<< "Destructor called"<< std::endl;
+   std::cout<< "ClapTrap Destructor called"<< std::endl;
 }
 
 void ClapTrap::beRepaired(unsigned int amount){
