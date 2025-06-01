@@ -21,7 +21,7 @@ ScavTrap &ScavTrap::operator=(ScavTrap const &scav){
     return *this;
 }
 
-ScavTrap::ScavTrap(ScavTrap const &scav){
+ScavTrap::ScavTrap(ScavTrap const &scav):ClapTrap(scav){
     std::cout<< "ScavTrap copy contructor called"<< std::endl;
     *this = scav;
 }

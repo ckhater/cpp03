@@ -12,7 +12,7 @@ FragTrap::FragTrap(std::string n){
     this->energy_points = 100;
 }
 
-FragTrap::FragTrap(FragTrap const &frg){
+FragTrap::FragTrap(FragTrap const &frg):ClapTrap(frg){
     std::cout<< "FragTrap copy constructor called"<< std::endl;
     *this = frg;
 }
