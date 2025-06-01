@@ -1,5 +1,5 @@
 Name=scavtrap
-FLAG=-std=c++98 -Wall -Wextra -Werror -g3
+FLAG=-std=c++98 -Wall -Wextra -Werror 
 SRC=main.cpp ClapTrap.cpp ScavTrap.cpp
 OBJ=$(SRC:.cpp=.o)
 
